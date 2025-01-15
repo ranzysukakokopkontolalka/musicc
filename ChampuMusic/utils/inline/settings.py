@@ -1,5 +1,6 @@
 from typing import Union
 
+close_markup
 from pyrogram.types import InlineKeyboardButton
 
 
