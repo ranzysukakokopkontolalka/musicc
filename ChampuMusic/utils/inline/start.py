@@ -4,7 +4,7 @@ import config
 from config import SUPPORT_GROUP
 from ChampuMusic import app
 
-
+close_markup
 def start_pannel(_):
     buttons = [
         [
