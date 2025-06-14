@@ -1,15 +1,4 @@
 from typing import Dict, List, Union
-get_active_chats,
-    get_authuser_names,
-    get_particular_top,
-    get_served_chats,
-    get_served_users,
-    get_user_top,
-    is_cleanmode_on,
-    save_broadcast_stats,
-    set_queries,
-    update_particular_top,
-    update_user_top,
 from ChampuMusic.core.mongo import mongodb
 add_sudo, remove_sudo
 queriesdb = mongodb.queries
