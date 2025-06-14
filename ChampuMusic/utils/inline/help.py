@@ -2,7 +2,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import SUPPORT_GROUP
 from ChampuMusic import app
-close_markup
 
 def support_group_markup(_):
     upl = InlineKeyboardMarkup(
