@@ -4,7 +4,6 @@ from config import autoclean, chatstats, userstats
 from config.config import time_to_seconds
 from ChampuMusic.misc import db
 
-get_readable_time
 async def put_queue(
     chat_id,
     original_chat_id,
