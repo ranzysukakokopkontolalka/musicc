@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from ChampuMusic import app
 
-close_markup
+
 def back_stats_markup(_):
     upl = InlineKeyboardMarkup(
         [
