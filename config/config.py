@@ -12,10 +12,10 @@ API_ID = int(getenv("API_ID", "27883552"))
 API_HASH = getenv("API_HASH", "03e8a15853d2aa580c52aea314d26711")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8182850821:AAEGTbJPOSpvnU9ouLuglju5zqF5RvDeBkU")
+BOT_TOKEN = getenv("BOT_TOKEN", "7381889815:AAGj4XbtsjCfeUfunCcE8q4mtgjVtHvYhaI")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "LevinmusicBot_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Pensixmusic_bot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pakeya2:userbot@cluster0.vva0b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -52,11 +52,11 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002514495816"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002590815501"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7566540245").split())
+    map(int, getenv("OWNER_ID", "8107432436").split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -79,7 +79,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/skandalbangettt"
 )  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ahahahmdaddd"
+    "SUPPORT_GROUP", "https://t.me/kaijensupport"
 )  # Example:- https://t.me/TheChampuClub
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -169,12 +169,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/lxtxhr.jpg",
+    "https://files.catbox.moe/oi0758.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/4whbu4.jpg",
+    "https://files.catbox.moe/oi0758.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
