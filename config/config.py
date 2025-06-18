@@ -269,8 +269,8 @@ if GITHUB_REPO:
         )
 
 
-if PING_IMG_URL:
-    if PING_IMG_URL != "https://telegra.ph/file/33591be403ae3eaae7217.jpg":
+if PING_VIDEO_URL:
+    if PING_VIDEO_URL != "https://files.catbox.moe/u109xi.mp4":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
