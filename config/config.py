@@ -172,9 +172,9 @@ START_IMG_URL = getenv(
     "https://files.catbox.moe/oi0758.jpg",
 )
 
-PING_VIDEO_URL = getenv(
-    "PING_VIDEO_URL",
-    "https://files.catbox.moe/u109xi.mp4",
+PING_IMG_URL = getenv(
+    "PING_IMG_URL",
+    "https://files.catbox.moe/chd2tg.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -269,8 +269,8 @@ if GITHUB_REPO:
         )
 
 
-if PING_VIDEO_URL:
-    if PING_VIDEO_URL != "https://files.catbox.moe/u109xi.mp4":
+if PING_IMG_URL:
+    if PING_IMG_URL != "https://files.catbox.moe/chd2tg.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
