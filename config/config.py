@@ -39,7 +39,7 @@ EXTRA_PLUGINS = getenv(
 # Fill here the external plugins repo where plugins that you want to load
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/TheChampu/Extra-Plugin",
+    "https://github.com/levine23/Extra-Plugin",
 )
 
 # Your folder name in your extra plugins repo where all plugins stored
@@ -56,7 +56,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1002869486987"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "8107432436").split())
+    map(int, getenv("OWNER_ID", "1986044327").split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -67,7 +67,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/levine23/stres",
+    "https://t.me/pensioffc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
