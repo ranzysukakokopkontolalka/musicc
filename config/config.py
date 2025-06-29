@@ -12,7 +12,7 @@ API_ID = int(getenv("API_ID", "27883552"))
 API_HASH = getenv("API_HASH", "03e8a15853d2aa580c52aea314d26711")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7381889815:AAGj4XbtsjCfeUfunCcE8q4mtgjVtHvYhaI")
+BOT_TOKEN = getenv("BOT_TOKEN", "8148965097:AAFZP0AXnP4FvUVa_b3gvPTwUWQ0-6YyLHc")
 
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "Pensixmusic_bot")
